@@ -1,8 +1,8 @@
 const siteData = {
   businessName: 'LuxeService',
-  phone: '+353 (01) 531 7823',
+  phone: '(555) 014-7823',
   email: 'hello@luxeservice.com',
-  address: '18 Grafton Street, Dublin 2, Ireland',
+  address: '245 Market Street, Suite 200, Your City',
   socials: [
     { label: 'Instagram', url: '#' },
     { label: 'Facebook', url: '#' },
@@ -16,28 +16,27 @@ const siteData = {
     { href: 'contact.html', label: 'Contact' }
   ],
   hours: [
-    ['Monday', '09:00 - 18:00'],
-    ['Tuesday', '09:00 - 19:00'],
-    ['Wednesday', '09:00 - 19:00'],
-    ['Thursday', '09:00 - 20:00'],
-    ['Friday', '09:00 - 20:00'],
-    ['Saturday', '10:00 - 18:00'],
-    ['Sunday', 'Closed'],
-    ['Bank Holidays', 'Hours may vary']
+    ['Monday', '9:00 AM - 6:00 PM'],
+    ['Tuesday', '9:00 AM - 7:00 PM'],
+    ['Wednesday', '9:00 AM - 7:00 PM'],
+    ['Thursday', '9:00 AM - 8:00 PM'],
+    ['Friday', '9:00 AM - 8:00 PM'],
+    ['Saturday', '10:00 AM - 6:00 PM'],
+    ['Sunday', 'Closed']
   ]
 };
 
 const services = [
-  { name: 'Signature Service', description: 'Personalised session tailored to your style and goals.', price: '€55+', duration: '45 min', category: 'Popular' },
-  { name: 'Premium Service', description: 'A complete experience with enhanced care and detail.', price: '€85+', duration: '75 min', category: 'Popular' },
-  { name: 'Express Service', description: 'Quick refresh for clients with busy schedules.', price: '€35+', duration: '30 min', category: 'Essentials' },
-  { name: 'Speciality Treatment', description: 'Targeted treatment for long-lasting results and comfort.', price: '€95+', duration: '90 min', category: 'Treatments' },
-  { name: 'Consultation Session', description: 'Professional advice and recommendations before booking, including patch-test guidance where needed.', price: '€25', duration: '20 min', category: 'Essentials' },
-  { name: 'Event Package', description: 'Bundled services designed for events and special occasions.', price: '€150+', duration: '120 min', category: 'Packages' }
+  { name: 'Signature Service', description: 'Personalized session tailored to your style and goals.', price: '$55+', duration: '45 min', category: 'Popular' },
+  { name: 'Premium Service', description: 'A complete experience with enhanced care and detail.', price: '$85+', duration: '75 min', category: 'Popular' },
+  { name: 'Express Service', description: 'Quick refresh for clients with busy schedules.', price: '$35+', duration: '30 min', category: 'Essentials' },
+  { name: 'Specialty Treatment', description: 'Targeted treatment for long-lasting results and comfort.', price: '$95+', duration: '90 min', category: 'Treatments' },
+  { name: 'Consultation Session', description: 'Professional advice and recommendations before booking.', price: '$25', duration: '20 min', category: 'Essentials' },
+  { name: 'Event Package', description: 'Bundled services designed for events and special occasions.', price: '$150+', duration: '120 min', category: 'Packages' }
 ];
 
 const teamMembers = [
-  { name: 'Jordan Lee', role: 'Senior Specialist', bio: 'Known for precise technique and personalised client care.', image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=600&q=80' },
+  { name: 'Jordan Lee', role: 'Senior Specialist', bio: 'Known for precise technique and personalized client care.', image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=600&q=80' },
   { name: 'Avery Morgan', role: 'Service Expert', bio: 'Focused on natural, modern looks and premium experiences.', image: 'https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=600&q=80' },
   { name: 'Riley Chen', role: 'Client Experience Lead', bio: 'Creates comfortable, welcoming appointments for every guest.', image: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=600&q=80' }
 ];

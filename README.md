@@ -24,11 +24,11 @@ Implemented in `assets/js/components.js` + `assets/js/common.js`:
 - `TestimonialCard` + section injection
 - `OpeningHours`
 
-## Customisation
+## Customization
 1. Update brand/business details and navigation in `siteData`.
 2. Replace placeholder copy/content arrays (`services`, `teamMembers`, `galleryImages`, `testimonials`).
-3. Replace section imagery with your own optimised assets.
-4. Adjust colour classes (`teal`, `slate`) to theme for any industry.
+3. Replace section imagery with your own optimized assets.
+4. Adjust color classes (`teal`, `slate`) to theme for any industry.
 
 ## Local preview
 ```bash

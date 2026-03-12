@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the business story, values, and team behind this service brand." />
+  <title>About | LuxeService</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <div id="site-header"></div>
+  <main>
+    <section class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:px-6">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Our Story</p>
+        <h1 class="mt-2 text-4xl font-bold text-slate-900">A people-first approach to premium service.</h1>
+        <p class="mt-6 text-slate-600">Use this section to describe your business journey, your local reputation, and why clients trust your team.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=80" alt="Business owner welcoming clients" class="rounded-3xl object-cover shadow-md" />
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 pb-16 md:px-6">
+      <h2 class="text-3xl font-bold text-slate-900">Mission & Values</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        <article class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200"><h3 class="font-semibold text-slate-900">Quality First</h3><p class="mt-2 text-sm text-slate-600">Consistent, detail-oriented delivery in every appointment.</p></article>
+        <article class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200"><h3 class="font-semibold text-slate-900">Client Comfort</h3><p class="mt-2 text-sm text-slate-600">Warm hospitality and stress-free booking from start to finish.</p></article>
+        <article class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200"><h3 class="font-semibold text-slate-900">Continuous Growth</h3><p class="mt-2 text-sm text-slate-600">Training, innovation, and modern methods that keep standards high.</p></article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 pb-20 md:px-6">
+      <h2 class="text-3xl font-bold text-slate-900">Meet the Team</h2>
+      <div id="about-team" class="mt-8 grid gap-6 md:grid-cols-3"></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script>initLayout('about.html');injectTeam('#about-team');</script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LuxeService is a reusable website template for modern appointment-based service businesses." />
+  <title>LuxeService | Service Business Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{brand:{600:'#0f766e',700:'#115e59'}}}}}</script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="relative isolate overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1800&q=80" alt="Modern service business interior" class="absolute inset-0 -z-10 h-full w-full object-cover" />
+      <div class="hero-overlay absolute inset-0 -z-10"></div>
+      <div class="mx-auto flex min-h-[78vh] max-w-6xl items-center px-4 py-24 md:px-6">
+        <div class="max-w-2xl text-white">
+          <p class="rounded-full bg-white/10 px-4 py-1 text-sm font-medium text-white/90 ring-1 ring-white/30 inline-block">Reusable Template</p>
+          <h1 class="mt-6 text-4xl font-extrabold leading-tight md:text-6xl">Elevate your service business with a site built to convert bookings.</h1>
+          <p class="mt-6 text-lg text-slate-200">Customisable for salons, spas, clinics, tattoo studios, therapists, and more across Ireland. Swap your content, set your colours, and launch quickly.</p>
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a href="contact.html#booking" class="rounded-full bg-teal-600 px-7 py-3 font-semibold text-white transition hover:bg-teal-700">Book Appointment</a>
+            <a href="services.html" class="rounded-full bg-white px-7 py-3 font-semibold text-slate-900 transition hover:bg-slate-100">View Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 py-20 md:px-6">
+      <div class="flex items-end justify-between">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Services</p>
+          <h2 class="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Popular services designed for every client.</h2>
+        </div>
+        <a href="services.html" class="hidden text-sm font-semibold text-teal-700 hover:text-teal-800 md:block">See full list →</a>
+      </div>
+      <div id="home-services" class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
+    </section>
+
+    <section class="mx-auto grid max-w-6xl gap-10 px-4 py-20 md:grid-cols-2 md:px-6">
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Friendly staff member" class="h-full w-full rounded-3xl object-cover shadow-md" />
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">About</p>
+        <h2 class="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Built around trust, quality, and consistency.</h2>
+        <p class="mt-6 text-slate-600">Share your story, mission, and values to build confidence before the first appointment. This section is designed to highlight credibility and create an emotional connection with potential clients in your local community.</p>
+        <ul class="mt-6 space-y-3 text-slate-700">
+          <li>✓ Experienced and fully certified professionals</li>
+          <li>✓ Transparent pricing and easy online booking</li>
+          <li>✓ Comfort-first customer experience</li>
+        </ul>
+        <a href="about.html" class="mt-8 inline-block rounded-full border border-slate-300 px-6 py-3 font-semibold text-slate-900 transition hover:border-slate-400">Learn More</a>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 py-20 md:px-6">
+      <div class="flex items-end justify-between">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Team</p>
+          <h2 class="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Meet the professionals behind the experience.</h2>
+        </div>
+      </div>
+      <div id="home-team" class="mt-10 grid gap-6 md:grid-cols-3"></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 py-20 md:px-6">
+      <div class="flex items-end justify-between">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Gallery</p>
+          <h2 class="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Showcase your best work.</h2>
+        </div>
+        <a href="gallery.html" class="hidden text-sm font-semibold text-teal-700 hover:text-teal-800 md:block">Open full gallery →</a>
+      </div>
+      <div id="home-gallery" class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 py-20 md:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Testimonials</p>
+      <h2 class="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Clients love the experience.</h2>
+      <div id="home-testimonials" class="mt-10 grid gap-6 md:grid-cols-3"></div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 pb-20 md:px-6">
+      <div class="rounded-3xl bg-slate-900 px-8 py-14 text-center text-white shadow-lg">
+        <h2 class="text-3xl font-bold md:text-4xl">Ready to grow your appointment bookings?</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-slate-300">Create urgency with a clear call-to-action and simple next step. Make booking effortless on every device.</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <a href="contact.html#booking" class="rounded-full bg-teal-500 px-7 py-3 font-semibold text-white transition hover:bg-teal-600">Book Appointment</a>
+          <a href="tel:+35315317823" class="rounded-full border border-slate-600 px-7 py-3 font-semibold text-white transition hover:border-slate-400">Call +353 (01) 531 7823</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 pb-20 md:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Contact</p>
+      <h2 class="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Questions? Let’s connect.</h2>
+      <div class="mt-10 grid gap-8 md:grid-cols-2">
+        <form class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class="text-sm font-medium text-slate-700">Name<input type="text" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+            <label class="text-sm font-medium text-slate-700">Phone<input type="tel" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+          </div>
+          <label class="mt-4 block text-sm font-medium text-slate-700">Email<input type="email" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+          <label class="mt-4 block text-sm font-medium text-slate-700">Message<textarea rows="4" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2"></textarea></label>
+          <button type="submit" class="mt-5 rounded-full bg-teal-700 px-6 py-2.5 text-sm font-semibold text-white">Send Message</button>
+        </form>
+        <div class="space-y-6" id="home-hours"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox-modal" class="fixed inset-0 z-[70] hidden bg-black/85 p-4">
+    <button id="lightbox-close" class="absolute right-5 top-5 rounded-full bg-white px-4 py-2 text-sm font-semibold">Close</button>
+    <img id="lightbox-image" alt="Gallery preview" class="mx-auto mt-20 max-h-[80vh] rounded-2xl object-contain" />
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script>
+    initLayout('index.html');
+    injectServices('#home-services', 3);
+    injectTeam('#home-team', 3);
+    injectGallery('#home-gallery', 4);
+    injectTestimonials('#home-testimonials');
+    document.getElementById('home-hours').innerHTML = openingHours();
+    initLightbox();
+  </script>
+</body>
+</html>

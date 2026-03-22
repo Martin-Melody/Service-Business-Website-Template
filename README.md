@@ -1,33 +1,37 @@
-# LuxeService – SvelteKit + shadcn-style Template
+# LuxeService – Reusable Service Business Website Template
 
-A production-ready, multi-page website template for appointment-based service businesses, rebuilt with **SvelteKit**, **Tailwind CSS**, and **shadcn-style reusable UI components**.
+Production-ready, multi-page website template for appointment-based service businesses.
 
 ## Stack
-- SvelteKit
-- Tailwind CSS
-- TypeScript
-- class-variance-authority + clsx + tailwind-merge (shadcn-style component patterns)
+- Semantic HTML5
+- Tailwind CSS (CDN)
+- Vanilla JavaScript reusable components
 
 ## Pages
-- `/` Home
-- `/services`
-- `/about`
-- `/gallery`
-- `/contact`
+- `index.html` (Home)
+- `services.html`
+- `about.html`
+- `gallery.html`
+- `contact.html`
 
-## Component structure
-- `src/lib/components/ui/*` → shadcn-style primitives (`Button`, `Card`, `Input`, `Textarea`)
-- `src/lib/components/sections/*` → reusable business sections/cards (`Navbar`, `Footer`, `ServiceCard`, `TeamCard`, `GalleryGrid`, `TestimonialCard`, `OpeningHours`)
-- `src/lib/data/site.ts` → central content/configuration for easy customisation
+## Reusable Components
+Implemented in `assets/js/components.js` + `assets/js/common.js`:
+- `Navbar`
+- `Footer`
+- `ServiceCard` + service grid injection
+- `TeamCard` + team grid injection
+- `GalleryGrid` with lightbox modal
+- `TestimonialCard` + section injection
+- `OpeningHours`
 
-## Run locally
+## Customization
+1. Update brand/business details and navigation in `siteData`.
+2. Replace placeholder copy/content arrays (`services`, `teamMembers`, `galleryImages`, `testimonials`).
+3. Replace section imagery with your own optimized assets.
+4. Adjust color classes (`teal`, `slate`) to theme for any industry.
+
+## Local preview
 ```bash
-npm install
-npm run dev
+python3 -m http.server 4173
 ```
-
-## Build
-```bash
-npm run build
-npm run preview
-```
+Then open `http://localhost:4173`.

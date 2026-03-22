@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse full portfolio gallery with responsive grid and lightbox view." />
+  <title>Gallery | LuxeService</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <div id="site-header"></div>
+  <main class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+    <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Gallery</p>
+    <h1 class="mt-2 text-4xl font-bold text-slate-900">Portfolio highlights and recent results.</h1>
+    <p class="mt-4 max-w-3xl text-slate-600">Use this grid to showcase transformations, studio atmosphere, and signature outcomes.</p>
+    <div id="gallery-grid" class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"></div>
+  </main>
+
+  <div id="lightbox-modal" class="fixed inset-0 z-[70] hidden bg-black/85 p-4">
+    <button id="lightbox-close" class="absolute right-5 top-5 rounded-full bg-white px-4 py-2 text-sm font-semibold">Close</button>
+    <img id="lightbox-image" alt="Gallery preview" class="mx-auto mt-20 max-h-[80vh] rounded-2xl object-contain" />
+  </div>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script>initLayout('gallery.html');injectGallery('#gallery-grid');initLightbox();</script>
+</body>
+</html>
